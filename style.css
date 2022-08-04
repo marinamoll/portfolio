@@ -1,0 +1,407 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+header{
+	background: #ACC0AF;
+	padding: 30px 0;
+}
+
+.caixa{
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+nav{
+	position: absolute;
+	top: 30%;
+	right: 0;
+}
+
+nav li{
+	display: inline;
+	margin: 0 0 0 20px;
+}
+
+nav a{
+	text-transform: uppercase;
+	color: #000000;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+nav a:hover{
+	color: #C67B92;
+	text-decoration: underline;
+}
+
+.banner{
+	width: 100%;
+}
+
+.tituloprincipal{
+	text-align: center;
+	font-size: 1.8em;
+	text-transform: uppercase;
+	margin: 0 0 0.5em;
+	padding-top: 40px;
+}
+
+.timeline{
+	position: relative;
+	margin: 50px auto;
+	padding: 15px 0;
+	width: 900px;
+}
+
+.timeline:before{
+	content: '';
+	position: absolute;
+	left: 50%;
+	width: 2px;
+	height: 100%;
+	background: #ACC0AF;
+	box-sizing: border-box;
+}
+
+.timeline ul{
+	margin: 0;
+	padding: 0;
+}
+
+
+.timeline ul li{
+	position: relative;
+	width: 50%;
+	padding: 20px 20px;
+	box-sizing: border-box;
+}
+
+.timeline ul li:nth-child(odd){
+	float: left;
+	text-align: right;
+	clear: both;
+}
+
+.timeline ul li:nth-child(even){
+	float: right;
+	text-align: left;
+	clear: both;
+}
+
+.content{
+	padding-bottom: 30px;
+}
+
+.content p{
+	text-align: justify;
+}
+
+.content strong{
+	font-weight: bold;
+	color: rgba(198, 123, 146, 1);
+}
+
+.timeline ul li:nth-child(odd):before{
+	content: '';
+	position: absolute;
+	top: 24px;
+	right: -6px;
+	width: 10px;
+	height: 10px;
+	background: rgba(198, 123, 146, 1);
+	border-radius: 50%;
+	box-shadow: 0 0 0 3px rgba(198, 123, 146, 0.2);
+}
+
+
+.timeline ul li:nth-child(even):before{
+	content: '';
+	position: absolute;
+	top: 24px;
+	left: -4px;
+	width: 10px;
+	height: 10px;
+	background: rgba(198, 123, 146, 1);
+	border-radius: 50%;
+	box-shadow: 0 0 0 3px rgba(198, 123, 146, 0.2);
+}
+
+.timeline ul li h3{
+	margin: 0;
+	padding: 0;
+	font-size: 17px;
+	font-weight: bold;
+	color: rgba(198, 123, 146, 1)
+}
+
+.timeline ul li p{
+	margin: 10px 0 0;
+	padding: 0;
+}
+
+.timeline ul li p .negrito{
+	font-size: 50px;
+}
+
+.timeline ul li .time h4{
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+}
+
+.timeline ul li:nth-child(odd) .time{
+	position: absolute;
+	top: 12px;
+	right: -120px;
+	margin: 0;
+	padding: 8px 16px;
+	background: rgba(198, 123, 146, 1);
+	color: #FFFFFF;
+	border-radius: 18px;
+	box-shadow: 0 0 0 3px rgba(198, 123, 146, 0.3);
+}
+
+.timeline ul li:nth-child(even) .time{
+	position: absolute;
+	top: 12px;
+	left: -125px;
+	margin: 0;
+	padding: 8px 16px;
+	background: rgba(198, 123, 146, 1);
+	color: #FFFFFF;
+	border-radius: 18px;
+	box-shadow: 0 0 0 3px rgba(198, 123, 146, 0.3);
+}
+
+footer {
+	text-align: center;
+	background: #ACC0AF;
+	padding: 40px 0;
+}
+
+.copyright{
+	color: #FFFFFF;
+	margin-top: 20px;
+	font-size: 13px;
+}
+
+
+/*início do CSS da página sobre*/
+
+.container{
+	width: 1300px;
+	margin: 15px auto;
+}
+
+.container h2 {
+	width: 100%;
+	display: inline-block;
+	vertical-align: top;
+	font-family: 'Mulish', sans-serif;
+	font-weight: 900;
+	font-style: italic;
+	font-size: 63px;
+	color: rgba(198, 123, 146, 1);
+	margin: 5px 0 10px 5px;
+}
+
+.container h3{
+	display: block;
+	font-family: 'Amatic SC', cursive;;
+	font-size: 35px;
+	font-weight: lighter;
+	color: rgba(198, 123, 146, 1);
+}
+
+.container p{
+	width: 50%;
+	text-align: justify;
+	margin-top: 10px;
+	display: inline-block;
+}
+
+.container .bolha{
+	width: 500px;
+	position: absolute;
+	right: 100px;
+	top: 180px;
+}
+
+
+.habilidades p{
+	text-align: center;
+
+}
+
+
+.barraprogresso{
+	position: relative;
+    width: 70%;
+    border-radius: 4px;
+    background-color: rgb(172, 192, 175, 0.5);
+    margin-bottom: 0.5em;
+    left: 198px;
+}
+
+.barraum, .barradois, .barratres, .barraquatro, .barracinco {
+    display: block;
+    border-radius: 4px;
+	height: 40px;
+	}
+
+.atributo{
+	position: absolute;
+    top: 12px;
+    left: 10px;
+}
+
+.percentual{
+	position: absolute;
+    top: 12px;
+    right: 10px;
+}
+
+.barraum{
+	width: 90%;
+	background-color: rgb(172, 192, 175);
+}
+
+.barradois{
+	width: 60%;
+	background-color: rgb(172, 192, 175);
+}
+
+.barratres{
+	width: 40%;
+	background-color: rgb(172, 192, 175);
+}
+
+.barraquatro{
+	width: 30%;
+	background-color: rgb(172, 192, 175);
+}
+
+
+.barracinco{
+	width: 20%;
+	background-color: rgb(172, 192, 175);
+}
+
+.categorias{
+	margin-bottom: 50px;
+}
+
+.categorias li{
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 15px;
+	box-sizing: border-box;
+	border: 2px solid rgb(198, 123, 146);
+	border-radius: 10px;
+}
+
+.fa{
+	align-content: center;
+}
+
+.categorias h2{
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 10px;
+	color: rgb(198, 123, 146);
+}
+
+.categorias p{
+	padding: 10px 5px 10px 5px;
+	text-align: justify;
+}
+
+
+.designs{
+	width: 960px;
+	margin-left: 210px;
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+
+
+.designs li{
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 10px 15px;
+	box-sizing: border-box;
+}
+
+.designs h2{
+	position: absolute;
+	text-align: center;
+	line-height: 250px;
+	color: rgba(0, 0, 0, 0);
+	background-color: rgba(100, 100, 100, 0.0);
+	height: 240px;
+	width: 300px;
+	transition: 2ms;
+}
+
+.designs h2:hover{
+	position: absolute;
+	text-align: center;
+	line-height: 250px;
+	color: rgba(255, 255, 255, 1);
+	background-color: rgba(100, 100, 100, 0.8);
+	height: 240px;
+	width: 300px;
+}
+
+
+.resumologo{
+	width: 70%;
+	text-align: center;
+	margin-left: 210px;
+}
+
+.resumologo p{
+	margin-top: 10px;
+}
+
+.mockups{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+
+.pai {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  height: 100%;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.filho {
+  align-self: center;
+  text-align: center;
+}
+
+
+.filho h2{
+	text-transform: uppercase;
+	color: rgb(198, 123, 146);
+	font-size: 18px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.lkd{
+	text-decoration: none;
+}
