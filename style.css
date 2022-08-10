@@ -364,17 +364,19 @@ footer {
 
 
 .resumologo{
-	width: 70%;
-	text-align: center;
-	margin-left: 210px;
+	display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  height: 100%;
 }
 
 .resumologo p{
-	margin-top: 10px;
+	margin: 10px 50px 10px 50px;
+	text-align: center;
 }
 
 .mockups{
-	padding-top: 20px;
+	padding-top: 10px;
 	padding-bottom: 20px;
 }
 
