@@ -323,43 +323,32 @@ footer {
 }
 
 
-.designs{
-	width: 960px;
-	margin-left: 210px;
-	padding-top: 10px;
-	padding-bottom: 30px;
+.grid{
+	display: grid;
+  grid-template-columns: repeat(3, auto);
+  justify-content: center;
+  margin-bottom: 10px;
 }
 
-
-.designs li{
-	display: inline-block;
-	text-align: center;
-	width: 30%;
-	vertical-align: top;
-	margin: 0 1.5%;
-	padding: 10px 15px;
-	box-sizing: border-box;
+.item{
+	padding: 10px;
 }
 
-.designs h2{
+.grid h2{
 	position: absolute;
 	text-align: center;
 	line-height: 250px;
 	color: rgba(0, 0, 0, 0);
-	background-color: rgba(100, 100, 100, 0.0);
+	background-color: rgba(100, 100, 100, 0);
 	height: 240px;
 	width: 300px;
 	transition: 2ms;
+
 }
 
-.designs h2:hover{
-	position: absolute;
-	text-align: center;
-	line-height: 250px;
+.grid h2:hover{
 	color: rgba(255, 255, 255, 1);
 	background-color: rgba(100, 100, 100, 0.8);
-	height: 240px;
-	width: 300px;
 }
 
 
