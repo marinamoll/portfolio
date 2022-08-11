@@ -399,8 +399,15 @@ footer {
 
 @media screen and (max-width: 480px) {
     .caixa, .banner, .resumo, .footer{
-	    width: 100%;
+	    width: auto;
 }
+	h1{
+		text-align: center;
+	}
+	
+	nav{
+		position: static;
+	}
 }
 
 
