@@ -398,7 +398,7 @@ footer {
 }
 
 @media screen and (max-width: 480px){
-	.caixa, .resumo, .timeline {
+	.caixa, .resumo, .timeline, .habilidades {
 		width: auto;
 	}
 	
@@ -417,7 +417,7 @@ footer {
 	nav{
 		position: static;
 	}
-
+		
 }
 
 
