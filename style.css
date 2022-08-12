@@ -398,12 +398,12 @@ footer {
 }
 
 @media screen and (max-width: 480px){
-	.resumo, .timeline {
+	.caixa, .resumo, .timeline {
 		width: auto;
 	}
 	
-	.caixa{
-		width:50%;
+	.caixa li{
+		font-size: 10px;
 	}
 	
 	.content p{
