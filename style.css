@@ -398,7 +398,7 @@ footer {
 }
 
 @media screen and (max-width: 480px){
-	.caixa, .resumo {
+	.caixa, .resumo, .timeline {
 	   width: auto;
 	}
 
