@@ -399,7 +399,8 @@ footer {
 
 @media screen and (max-width: 480px){
 	.caixa, .resumo, .timeline {
-	   width: auto;
+	width: auto;
+	font-size: 12px;
 	}
 
 	h1{
