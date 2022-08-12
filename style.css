@@ -417,8 +417,7 @@ footer {
 	nav{
 		position: static;
 	}
-	.barraprogresso{
-		left: 1px;
+	.barraprogresso, .categorias{
 		width:100%;
 	}
 		
