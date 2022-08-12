@@ -402,7 +402,11 @@ footer {
 		width: auto;
 	}
 	
-	P{
+	.caixa{
+		font-size: 9px;
+	}
+	
+	p{
 		font-size: 7px;
 	}
 
