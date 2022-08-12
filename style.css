@@ -418,7 +418,7 @@ footer {
 		position: static;
 	}
 	.barraprogresso{
-		width:100%;
+		width:auto;
 		left: 2px;
 	}
 		
