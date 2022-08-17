@@ -422,7 +422,7 @@ footer {
 		left: 2px;
 	}
 	.container{
-		width: 100%;
+		width: auto;
 		margin: 0px;
 	}
 	.container .bolha{
@@ -433,6 +433,12 @@ footer {
 		position: static;
 		display: inline;
 		width: 100%;
+		box-sizing: none;
+	}
+	.fa{
+		display: flex;
+  		flex-flow: row wrap;
+	  	justify-content: center;
 	}
 		
 }
