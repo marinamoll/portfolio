@@ -421,9 +421,14 @@ footer {
 		width:auto;
 		left: 2px;
 	}
+	.container{
+		width: 100%;
+	}
+	
 	.categorias li{
+		position: static;
 		display: inline;
-		width: auto;
+		width: 100%;
 	}
 		
 }
