@@ -426,8 +426,11 @@ footer {
 		margin: 0px;
 	}
 	.container .bolha{
-		position: static;
+		display: flex;
+  		flex-flow: row wrap;
+	  	justify-content: center;
 		width: 50%;
+		
 	}
 	
 	.categorias li{
