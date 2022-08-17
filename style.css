@@ -427,6 +427,7 @@ footer {
 	}
 	.container .bolha{
 		position: static;
+		width: 50%;
 	}
 	
 	.categorias li{
