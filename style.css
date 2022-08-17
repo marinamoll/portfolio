@@ -423,7 +423,6 @@ footer {
 	}
 	.container{
 		width: auto;
-		margin: 0, 5px, 0, 5px;
 		text-align: center;
 	}
 	.container .bolha{
@@ -440,7 +439,6 @@ footer {
 		border: 0px solid rgba(198, 123, 146, 0);
 	}
 	.categorias p{
-		margin: 0, 5px, 0, 5px;
 		text-align: center;
 	}
 	.fa{
