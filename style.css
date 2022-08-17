@@ -423,6 +423,10 @@ footer {
 	}
 	.container{
 		width: 100%;
+		margin: 0px;
+	}
+	.container .bolha{
+		position: static;
 	}
 	
 	.categorias li{
