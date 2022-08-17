@@ -423,13 +423,13 @@ footer {
 	}
 	.container{
 		width: auto;
-		margin: 0px;
+		margin: 0, 5px, 0, 5px;
+		text-align: center;
 	}
 	.container .bolha{
 		position: static;
 		width: 50%;
-		align-content: center;
-		
+		align-content: center;	
 	}
 	
 	.categorias li{
@@ -439,10 +439,13 @@ footer {
 		box-sizing: none;
 		border: 0px solid rgba(198, 123, 146, 0);
 	}
+	.categorias p{
+		margin: 0, 5px, 0, 5px;
+		text-align: center;
+	}
 	.fa{
-		display: flex;
-  		flex-flow: row wrap;
-	  	justify-content: center;
+		align-self: center;
+ 	 	text-align: center;
 	}
 	.grid{
 		display: inline;
