@@ -398,7 +398,7 @@ footer {
 }
 
 @media screen and (max-width: 480px){
-	.caixa, .resumo, .timeline, .grid, .categorias {
+	.caixa, .resumo, .timeline, .categorias {
 		width: auto;
 	}
 	
@@ -444,7 +444,9 @@ footer {
   		flex-flow: row wrap;
 	  	justify-content: center;
 	}
-		
+	.grid{
+		display: inline;
+	}
 }
 
 
