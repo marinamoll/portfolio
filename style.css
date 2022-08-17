@@ -398,7 +398,7 @@ footer {
 }
 
 @media screen and (max-width: 480px){
-	.caixa, .resumo, .timeline, .categorias, .mockups{
+	.caixa, .resumo, .timeline, .categorias{
 		width: auto;
 	}
 	
@@ -446,6 +446,9 @@ footer {
 	}
 	.grid{
 		display: inline;
+	}
+	.mockups{
+		width: 100%;
 	}
 }
 
