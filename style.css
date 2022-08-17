@@ -426,10 +426,9 @@ footer {
 		margin: 0px;
 	}
 	.container .bolha{
-		display: flex;
-  		flex-flow: row wrap;
-	  	justify-content: center;
+		position: static;
 		width: 50%;
+		align-content: center;
 		
 	}
 	
